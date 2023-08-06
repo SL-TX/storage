@@ -1,0 +1,45 @@
+###
+POST http://localhost:8080/socks/income
+Content-Type: application/json
+
+{
+  "color": "red",
+  "cottonPart": 40,
+  "quantity": 128
+}
+
+<> 2023-08-06T230128.404.json
+###
+###
+###
+### dfgsd
+POST http://localhost:8080/socks/income
+Content-Type: application/json
+
+{
+  "color": "yellow",
+  "cottonPart": 80,
+  "quantity": 5
+}
+### gsdfgdsf
+POST http://localhost:8080/socks/outcome
+Content-Type: application/json
+
+{
+  "color": "yellow",
+  "cottonPart": 80,
+  "quantity": 2
+}
+###
+###
+###
+### gfsdg
+GET http://localhost:8080/socks?color=yellow&operation=equal&cottonPart=80
+### asd
+###bvc
+GET http://localhost:8080/socks?color=yellow&operation=moreThan&cottonPart=70
+
+###bxbcv
+GET http://localhost:8080/socks?color=yellow&operation=lessThan&cottonPart=90
+
+<> 2023-08-06T225534.404.json
