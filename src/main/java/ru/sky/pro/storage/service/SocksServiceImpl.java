@@ -34,7 +34,7 @@ public class SocksServiceImpl implements SocksService {
             existedSocks.setQuantity(existedSocks.getQuantity()+dto.getQuantity());
             socksRepository.save(existedSocks);
             return;
-        };
+        }
         Socks socks = socksMapper.toEntity(dto);
         socksRepository.save(socks);
     }
@@ -49,7 +49,7 @@ public class SocksServiceImpl implements SocksService {
             existedSocks.setQuantity(existedSocks.getQuantity()-dto.getQuantity());
             socksRepository.save(existedSocks);
             return;
-        };
+        }
 
     }
 }
